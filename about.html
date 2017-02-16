@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Larisa Lashko | About</title>
+<link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.css"/>
+<link rel="stylesheet" type="text/css" href="css/mycss.css"/>
+</head>
+
+<body> 
+<div id="wrap-about">
+	<div id="logo-about">
+		<a href ="main.html"> <img src="images/larisa-smal-about-me.png" width="288" height="156"/> </a>
+    </div>
+    <div id="about-content">
+       <div id="aboutme">
+        	<div id="aboutme-img">
+        	</div>
+		<div class="container">
+            <p>Hello and welcome to my website, my name is Larisa Lashko, a realist painter from Belarus. I currently live
+    in a wonderful island of Greece, Corfu.</br>
+    When i was 10 years old i went to the first school of art in Belarus, i 
+    studied for 6 years and after that i continued my studies at Minsk School 
+    of art named after A.K Glebov in the field of Artistic Design. I have worked in different companies as a painter, i've painted on walls 
+    of several schools and for friends. I mostly paint with oil colors, but i 
+    also like pastel and watercolors. As a member of UNESCO I take part in many exhibitions around the world.</br>
+    The paintings on my gallery are for sale, and i can paint on request any 
+    personal photograph you would like. Please go to contact and send me an email with any 
+    comments or requests. Thank you for your visit!</p>
+		</div>
+        </div>
+    </div>
+    <a href="main.html"><p class="menu">Back to Menu</p></a>   
+</div> 
+<!-- this cssfile can be found in the jScrollPane package -->
+	<link rel="stylesheet" type="text/css" href="jquery.jscrollpane.css" />	
+		
+	<!-- latest jQuery direct from google's CDN -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<!-- the jScrollPane script -->
+	<script type="text/javascript" src="jquery.jscrollpane.min.js"></script>
+	
+	<!--instantiate after some browser sniffing to rule out webkit browsers-->
+	<script type="text/javascript">
+	
+	  $(document).ready(function () {
+	      if (!$.browser.webkit) {
+	          $('.container').jScrollPane();
+	      }
+	  });
+	
+	</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+	<style>
+	* {margin: 0;
+		padding: 0
+	}
+	.container {
+	float:right;
+	margin-top: 50px;
+	margin-right: 50px;
+	width:400px;
+	height:250px;	
+	overflow: auto;
+	}
+	
+	p {
+		margin: 0 0 2em 0;
+	}
+	
+	::-webkit-scrollbar {
+		  width: 15px;
+	} /* this targets the default scrollbar (compulsory) */
+	
+	::-webkit-scrollbar-track {
+		  background-color: #b46868;
+	} /* the new scrollbar will have a flat appearance with the set background color */
+
+	::-webkit-scrollbar-thumb {
+		  background-color: rgba(0, 0, 0, 0.2); 
+	} /* this will style the thumb, ignoring the track */
+
+	::-webkit-scrollbar-button {
+		  background-color: #7c2929;
+	} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+
+	::-webkit-scrollbar-corner {
+		  background-color: black;
+	} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */	
+	
+	
+</style>
